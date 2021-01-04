@@ -155,5 +155,5 @@ preprocessor = ColumnTransformer(
         ('num', numeric_transformer, NUM_FEATS),
         ('cat', categorical_transformer, CAT_FEATS)])
 
-rf_clf = Pipeline(steps=[('preprocessor', preprocessor), # Actually Random Forest CLF
+rf_clf = Pipeline(steps=[('preprocessor', preprocessor),
                          ('rf_clf', RandomForestClassifier())])
