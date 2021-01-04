@@ -12,15 +12,6 @@ A simple machine learning model deployed to Flask and FastAPI
  - The classification model used below should not be used in any real world scenario.
  - The model itself is a toy example and is flawed. There is one heavily weighted feature.
  
- ## Contents
-``` 
-├── data.csv #  Contains labelled training data 
-├── fastapi_app.py #  FastAPI App - Imports * from functions.py
-├── flask_app.py #  Flask App - Imports * from functions.py
-├── functions.py #  Custom functions and variables.
-├── grid_rfc.sav #  Random Forest Classifier
-└── interact_with_model.ipynb #  Notebook for interacting with both models
-```
 ## Usage
 ```bash
 cd /PATH/TO/FILES
@@ -40,3 +31,13 @@ You have multiple options:
 - For FastAPI, navigate to http://127.0.0.1:8000/docs and "Try it out"
 - [Try it with Postman](https://www.postman.com/downloads/)
 - Command line
+
+ ## Contents
+``` 
+├── data.csv #  Contains labelled training data 
+├── fastapi_app.py #  FastAPI App - Imports * from functions.py
+├── flask_app.py #  Flask App - Imports * from functions.py
+├── functions.py #  Custom functions and variables.
+├── grid_rfc.sav #  Random Forest Classifier
+└── interact_with_model.ipynb #  Notebook for interacting with both models
+```
