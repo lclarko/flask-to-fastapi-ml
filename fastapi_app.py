@@ -56,9 +56,7 @@ def get_assessment(json):
 # Routes (Endpoints)
 @app.post("/predict")
 async def predict(json: Applicant):
-
     pred = get_assessment(json)
-
     return pred
 
 
